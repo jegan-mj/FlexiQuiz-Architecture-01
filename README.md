@@ -1,7 +1,7 @@
 # FlexiQuiz-Architecture-01
 
 1. Git-Repository-Structure.jpg
-Git Repository Structure for microservice applications
+    - Git Repository Structure for microservice applications
 
 2. CI-CD-Flow.jpg and CI-CD-Flow.txt
 CI/CD Plan to test each application and rum them in deployment pipeline
