@@ -1,0 +1,18 @@
+All the Microservice application will have 5 repos: Dev, Test, Staging, UAT, Production.
+
+The Dev Repo have 5 branches: Develop, Feature, Release, Hotfixes, Master.
+
+Usually a developer will develop only in develop branch. Open a PR to merge it to the Master branch. 
+Only the Master branch will be allowed to pushed into the Test Repo.
+
+Feature branch is for feature enhancement
+
+Release branch is to create a new release
+
+Hotfixes branch is a temporary branch to fix the high priority bug.
+
+Pipelines are built using Circle CI.
+Here, we can write a specific deployment flow for each repo. 
+Unit testing, Code Quality testing, triggers, deployemnts and notifications are done using Circle CI.
+
+
